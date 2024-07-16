@@ -4,6 +4,7 @@ PLATFORM_DIR = path.dirname(__file__)
 
 SKY130HD_PLATFORM_CONFIG = {
 	# General configuration
+	'PLATFORM_DIR': PLATFORM_DIR,
 	'PLATFORM': 'sky130hd',
 	'PROCESS': 130,
 	'TECH_LEF': path.join(PLATFORM_DIR, 'lef', 'sky130_fd_sc_hd.tlef'),
